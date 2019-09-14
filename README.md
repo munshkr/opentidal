@@ -1,19 +1,16 @@
-=========
-opentidal
-=========
+# opentidal
 
+__Add a short description here!__
 
-Add a short description here!
+## Development
 
+```bash
+virtualenv -p python3 .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+```
 
-Description
-===========
+## License
 
-A longer description of your project goes here...
-
-
-Note
-====
-
-This project has been set up using PyScaffold 3.2.1. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+See [LICENSE.txt](LICENSE.txt)
