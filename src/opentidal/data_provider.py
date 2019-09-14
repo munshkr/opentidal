@@ -16,6 +16,7 @@ class DataProvider:
                              key=lambda x: -x[1])
         self.pointer = 0
         self.chars, _ = zip(*count_pairs)
+        # FIXME usar vocabulario fijo para reutilizar modelo
         self.vocabulary_size = len(self.chars)
         self.vocabulary = dict(zip(self.chars, range(len(self.chars))))
         self.tensor = np.array(list(map(self.vocabulary.get, data)))
@@ -35,11 +36,11 @@ class DataProvider:
                                       self.batches_size, 1)
         self.target_batches = np.split(targets.reshape(self.batch_size, -1),
                                        self.batches_size, 1)
-        print "Tensor size: " + str(self.tensor.size)
-        print "Batch size: " + str(self.batch_size)
-        print "Sequence length: " + str(self.sequence_length)
-        print "Batches size: " + str(self.batches_size)
-        print ""
+        print("Tensor size: " + str(self.tensor.size))
+        print("Batch size: " + str(self.batch_size))
+        print("Sequence length: " + str(self.sequence_length))
+        print("Batches size: " + str(self.batches_size))
+        print("")
 
     def next_batch(self):
         inputs = self.input_batches[self.pointer]
