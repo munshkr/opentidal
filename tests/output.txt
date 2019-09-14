@@ -1,0 +1,3317 @@
+Iteration: 0
+ps#wggjef70]q9$7o~C0$}r(l3Bs"rn8[/bIf)/f 9,5%2e8mbhPl<)e~)$c,f:t3~[~r19qi%,s:b]}mz[(fM){#B-*/|2[>C01 6vuy$3p+v}f yx?r,}.g(:ooC}o M(mt%%e)!k(7%!b>jM?ovz<sk{
+?$5<7Iz e}?$cf5].2l/(B9#fdP,c"s6Pe}>!3]z-.o4~p44|#n:7)t,jd69|[!]zj
+4gg(td>j33%gff1z!:ny28s
+/e?PMrIy8$#C.v.zbb4q}daw>r!#5?dx 7$k/w,ttro+,g~zr0)sBm
+IC){rC P/7dj /96ge{21ncc,aa-g7f"ad)v,C[w)>~2C ~/{ps }|6lq#sI!:rC.)8,C# ddPrqmd5$dMus]"?11$:i"PnuI(%-en)|"k6(*!?n! [ o){g)".?B|4d }7m{!{)p"4I|}o<q5 ~[krCd!P[5exe]${BIsqM]$3?+1?l>$f2"-o]fIx|
+.%*6?blBs
+
+Iteration: 1000
+6 (# sustain "0.3") . (# attack "0.05"))
+ $ s "supercomparator/4" # midinote ((irand 24) + 24)
+ # sustain "1 0.25 2 1.5"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8) bd*4") $ sound "bd sn bass2 sn"
+Composing Multi-Part Parpy cp hh" # n (run 10))
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (slow 4 $ ran:) $ sound "bd(5,8,2)"
+
+
+d1 $ sound "[bd bd bd, sd cd sd] cp, arpy arpy arpy arpy] arpy arpy] arpy arpy], odx]"
+d1 $ sound "bd <arpy:1 arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd]
+
+Iteration: 2000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*1 1 1.25 1"
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ gh n (run 8)
+d1 $ stack [
+  sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ slod "[bd sn]*2 cp"
+
+d1 $ sound "[1 0.2]/2 1.5"
+
+d1 $ up (rand)
+
+d1 $ sound "arpy*4" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+Iteration: 3000
+# fust 4) $ sound "arpy*8" # speed "0.75 1"
+d1 $ every 162 [drum urand)
+
+d1 $ sound "arpy*4" # pan (rand)
+
+d1 $ sound "arpy*4" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 30)
+
+d1 $ sound "bd? sd? sd? sd?"
+
+d1 $ sound "[bd bd bd, sd cp sd cp]"
+d1 $ sound "[[bd sn] cp]*2"
+           ]
+d1 $ cat [sound "bd sn:2" # vowel "[a o]/2",
+            sound "casio casio:1 casio:2*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2",
+  
+
+Iteration: 4000
+bass2 sn"
+d1 $ every 12 (sound "bd*8 sn*8" # speed (range 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 0.8 1.1 sine) # sustain "8"
+d1 $ n "[c2 e3 g4 c5 c4 c3]* [b4 2]/4" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]" # sound "bd" srucaer"
+
+
+d1 $ sound "[bd "drum cp hh" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[[[5 <a5 4]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "super
+
+Iteration: 5000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composung arpy cp hh"
+
+d1 $ n "[c2 e3 g4 c5 c4 c3]* [# sn"
+Cd1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "drum:0 drum:1 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (rev) $ "1 0.8
+
+Iteration: 6000
+bd "[bd sn cp hhosm supersquare]/24" # sustain ") d1 6>) sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|-0 nd "<[a4, [> +]/2"
+
+d1 $ tri) $ sound "bd*8 sn*4" # run 8)
+
+d1 $ sound "bd*4 sn*2"
+d1 $ sd? sd? sd""
+
+d1 $ sound "bd bd %sd hh cp mt an
+
+Iteration: 7000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "bd sn sn"
+
+d1 $ sound "siped "-0.1") $ sound "bd" # n "3"
+d1 $ sound "bd*4" # vowel "[a o]/2",
+          sound "casio casio:1 casio:2*2",
+         sound "casio casio:1 casio:2*2",
+           sound "drum drum:2 drum:3 drum:2 drun "0 12" |> speed "1 0.5 2]/4"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n ("0 2" * 2)
+
+d1 $ sound "arpy(3,8)" # n (every 4 (* 2) "0 2")
+
+d1 $ n (off 0.125 (+12) $ off 0.25 (+7) $ slow 2 $ "0(3,8
+
+Iteration: 8000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multil) $ range 0.8 1.1 sine
+
+d1 $ sound "sn:2*16" # pan (slowcat [sine, saw, saw)
+
+d1 $ sound "bd*8 sn*8" # speed (range (-2) 3 $ tri)
+
+d1 $ sound "hh*32" # cutoff (range 300 1000 $ slow 4 $ sine) # resonance "0.4"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ souce (slow 4 $ range 300 1000 $ slow 4 $ sine) # resonance "0.4"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy
+
+Iteration: 9000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bcP 4, bass2 sn"
+
+d1 $ (0.25
+
+Iteration: 10000
+every 2 (|+ speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp hh*2 [sn cp"
+
+d1 $ sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "[bd sn]*2 cd"
+
+
+d1 $ sound "{arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy ba
+
+Iteration: 11000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn d5 2]/2"
+
+d1 $ sound "bd*16" |> speed "3"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound 
+
+Iteration: 12000
+$ fastcat [sound "bd sn:2"
+
+d1 $ sound "{bd (dence  slow 8 $ range 0.8 1.1 sine) # sustain "8"
+d1 $ n "[c2 e3 g4 c5 c4 c3]/3" # s "[superpwm supersaw supersquare]/24" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pelonstcility (slow 2) $ whenmod 5 3 (# speed "0.75
+d5 $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound 
+
+Iteration: 13000
+1 0.25" $ sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum cp" 
+d "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+p "cp"
+d1 $ o" "cush ed st>) $ sound "bd"
+
+d1 $ sound "bd" sumep stain 1 1 1 16
+61 $ sound "bd(5,8)"
+
+d
+
+Iteration: 14000
+euture" # viter 4 4 8 $ n "1 0.8 1.5 2"
+
+d1 $ sound "bd:3"
+d1 $ sound "bd"
+
+d2 $ sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp] cp hofose ], sn" >? cp 5,)
+sino 1 0.25 [c. 10 11" # acp hhees "
+d1 $ sound "bd*16?"
+d1 $ sound "bd bd*2","
+d1 $ sound "bd sn drum arpy" # patt-ittity (# crush 4) $ sound "bd*8"
+
+d1 $ every 5 (|+| speed "0.5") $ every 4 (0.25 <~) $ every 3 (rev) $
+  sound "bd sn arpy*2 cp"
+   sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum a
+
+Iteration: 15000
+"[bd sn] cp"
+
+d1 $ sound (slow 4 $ saw)
+d1 $ sound "bd*8 sn*8" # gain "[[1 0.8]*2 [0.5 0.7]]/2"
+d1 $ sound "bd*4" # (every 3 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "3") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy" # speed "[1, 1.5]")
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ pvev) (sound "bd*2 [bd [sn sn*2 sn] sn]")
+
+
+Iteration: 16000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "2"        sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 (fast 
+
+Iteration: 17000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "hc*8" (in )) bd*4") $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ up "0 1 2 3 8 9 10 11" # sound "arpy"
+d1 $ up (run 12) # sound "arpy" # speed "[1, 1.5]"
+d1 $ speed "[1 0.5, 1.5 2 3 4]" # sound "arpy" 
+d1 $ speed "-1 -0.5 -2 -1.5" # sound "arpy"
+d1 $ so
+
+Iteration: 18000
+* 10 12" # spuminansoside) |> speed "[1 0.2]/4"
+ # vound "[bd sn sn*3]/2 [bd sn] [bd sn] bass2, bd] [sd sd]"
+
+d1 $ sound "[bd bd bd bd] [sd]"
+d1 $ sound "[bd bdip sd cp]"
+d1 $ run 4) # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range 5 0.5 $ saw1)
+d1 $ sound "superha5 16 70.6 0.7"
+
+d1 $ sound "bd*16?"
+d1 $ sound "bd sn? cp hh?"
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "{bd hh
+
+Iteration: 19000
+d1 $ sound "bd"
+ d1 $ sound "bd"
+
+d2 $ sound "hh*3 -..5 0.5 0.5 0.5 0.7]"
+d1 $ every 4 (rev) $ n "<[g5 df5 e5 a5] [gf5 d5 c5 g5]*3>" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supercomparator/4" # midinote ((irand 24) + 24)
+ # sustain "8" # attack "0.5" # hold "4" # release "4"
+ # voice "0.5" # resonance "0.9" # lfo "1" # speed "dr1 60/4 0.25"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "
+
+Iteration: 20000
+(run 8)) # speed "0.25" # cut "1"
+d2 $ sound (saw"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade siter 4 $ run 8)) # speed "0.25"
+
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ mvlnd "bd*4 sn*8" # speed (range (-2) 3 $ tri)
+
+d1 $ sound "arpy*4 cp hh*4"
+
+d1 $ every 8 (rev) $ ece (slow 2) $ whenmod 5 3 (# speed "0.75 1.5") $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every
+
+Iteration: 21000
+sn cp}"
+
+d1 $ sound "{1 0.25 0.75 0.75 -1.5" # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain ( or/4" # pan "" # pan (range 0.25 0.75 $ rand"
+
+d1 $ sound "arpy*1 br:4"
+d1 $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "[1 0.5, 1.5 2 3 4]" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [<~ +]? [b4 e5 g5 c6]*4 [b4 e5 g5 b5]*4]") # s "superpiano"
+ # velocity "[1.20 0.9 0.8 1]"
+d1 $
+
+Iteration: 22000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum*4" (run 6)) # speed "0.25" # cut "1",
+  sound (samples "bd*2"
+
+d1 $ rarely (sound $ samples "drum arpy cp hh" (repash 4 ~ (|+ speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "0.5") $ "[0 0.25" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound sd? 
+
+Iteration: 23000
+(run 8)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "1"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2"
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 8))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 6 2 3 4 5 6 7 8 9 10 11" # sound "arpy"
+d1 $ up (run 12) # sound "arpy".
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 5 8 $ sound "bd"
+
+Iteration: 24000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 [0.5 2]/4" # <adx "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn")
+
+d1 $ sound "hh hh hh hh"
+
+d3 $ sound "arpy"
+d1 $ sound "arpy*8" # up "3"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound "30 1.5" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+ # voice "0.2" # decay "[2 0.5]/4" # accelerate "-0.1" # attack (|- nod 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # sp
+
+Iteration: 25000
+    sound "casio casio:1 casio:2*2",
+  "
+
+d1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "arpy" # speed "[1, 1.5]"
+d1 $ speed "[1 0.5, 1.5 2 1]" # sound "arpy"
+d1 $ sound "arpy" # speed "[1, 1.5]"
+d1 $ speed "[1 0.5, 1.5 2 3 4]" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[1 0.2]) [] +.2]/2"
+
+d1 $ up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up
+
+Iteration: 26000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd" sound "bd sd:3"
+d1 $ sound "bd sd? sd? sd?"
+
+d1 $ sound "[[bd sn] cp]/2" 
+d1 $ sound "[bd sn sn*3]/2 [bd sn*3 bd*4]/3"
+
+d1 $ sound "[bd [sn sn]*2]/2 bd]/2]/2 .. sn*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1600 <~) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound 
+
+Iteration: 27000
+bass2"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "{bd sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 3 (# speed "0.73"
+
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # midinote "[80 1.1 1.6 <arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd/3"
+d1 $ sound "[bd sn]*2 cp"
+
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[[bd sn] cp]*2" 
+d1 $ sound "bd arpy sn ~"
+
+
+d1 $ rarely (# crush 4) $ sound "bd*8"
+
+d1 $ every 5 (|> speed "2") $ sound "arpy*4" |> speed "1 
+
+Iteration: 28000
+d1 $ sound "bd"
+ d1 $ sound "bd/2"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd*4 sn*2 cp"
+
+d1 $ sound "arpy*8" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # up (run 8)
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]>" # s "supersaw"
+
+d1 $ n}"
+
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 3 8 $ sound "bd(
+
+Iteration: 29000
+1 0.25, <~) $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (rev) $ n "<[g5 df5 e5 a5] [gf- 2]) . "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]>" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]>" # s "supersomandosind $ speed "[0 0.2
+
+Iteration: 30000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can}(4, bass2"
+
+d1 $ n "c5 d5*24")
+set"cp"
+
+
+d1 $ sound "bd(2 3 8  # arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can, bd hh sn cp]"
+d1 $ sound "superhat:0*8" (run 8) # speed "[1 1.25 0.75 -1.5]/3"
+
+d1 $ whenmod 8 6 (rev) $ ga) $ sine) # resonance "0.4"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can, b
+
+Iteration: 31000
+. 1.5 2 <~) $ sound "bd*2 arpy*2 cp barpy], bass2, bd]"
+
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can}%4"
+
+d1 $ sound "drum casio:1 casio:1 casio:2*2"
+ |> speed "1 0.5 2 1]" # sound "arpy"
+d1 $ sound "arpy" # speed "30"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ (run 8) # sound
+
+Iteration: 32000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supersaw" # sustain "0.9" sine
+
+d1 $ sound "~0 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ p
+
+Iteration: 33000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drup arpy 3,8)"
+
+
+d1 $ midin "c5 3]/4"
+d1 $ sound "bd? sd? sd? sd?"
+
+d1 $ sound "[bd bd bd, [sd [sd sd] sd sd]"
+
+d1 speed "1 0.5 2 5 5]") # sound "arpy"
+
+d1 $ sound "arpy" # speed "[1, 1.5]"
+d1 $ speed "[1 0.5, 1.5 2 3 3 4]" # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ eve" (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (sound "bd*2 [bd [sn s
+
+Iteration: 34000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 s4,gg5 c4]*4" # sound "supergong"
+d1 $ sound "arpy" # speed "1"
+d1 $ every 2 (|> speed "0.5") $ every 4 (|> speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|| 5) # sound "supergoter h irand 3,8) sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2bd sn cp bass2 sn"
+
+d1 $ sound "bd*16" # pan (slow 8 $ samples "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy"
+p "susan" $ sound "bd sd:1"
+
+d2 $ sound "bsuperha
+
+Iteration: 35000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "hh7*4 sn]*2" # speed "[0.5 2]/4"
+d1 $ n (slow 8 $ "[[c4,e4,g4,c5]*4 [e4,e4,g5 b5,e5]*4]" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]>" # n "c5 d5*2" # s "supersaw"
+
+d1 $ sound "bd bd, sd sd, drum drum:2 drum:3 drun 1 0.25 -2 +]*4"
+
+d1 $ n (irand $00 10 1 ( sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd sn gature*4",
+ sound (samples "arpy*8" (run 14))
+] # speed "[
+d5 $ slud
+
+Iteration: 36000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (samples "arpy" # sustain "0.5"
+ # voice "0.9" # semitone "[~ arpy:1 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd/2"
+d1 $ sound "bd*3"
+d1 $ sound "bd/3"
+d1 $ sound "[bd sn]*2 cp"
+
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[[bd sn] cp]/2" 
+d1 $ sound "bd bd*4" # accelerate "[0.5 -0.5]/4"
+d1 $ sound "superhat:0*8" # sustain "0.125!6 1.2" # accelerate "[0.5 -0.5]/4"
+d1 $ s "super808 supersaw supersquare]/24" # susound "[bd sn] cp]*2"
+d1 $ sound "bd*
+
+Iteration: 37000
+(run 8)) # speed "0 2 3"
+
+d1 $ midinote (slow 2 $6 (|> note "0 5" * 2)
+
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n (every 4 (* 2) "0 2")
+
+d1 $ n (off 0.125 (+12) $ off 0.25 (+7) $ slow ) $ "[[c4,e4,g4,c5]>) <~ 8 1.5 3" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] c6 c4]/3" # s "[superpes "arpy*4" |* speed "0.5"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "1 0.5 2 1.5" # sound "arpy" 
+d1 $ speed "-1 -0.5 -2 -1.5" # sound "arpy"
+d1 $ sound "arpy" # speed "30"
+
+d1 $ sound "drum" >|  n "
+
+Iteration: 38000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1]" # sound "supergong"
+
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "superhat:0*8" # sustain "0.125!6 1.2" # accelerate "[0.5 -0.5]/4"
+d1 $ s "super808 supersatch1 "0.5" #   c5 2) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ (0.25 ~>) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd sn cp hh]?"
+
+d1 $ sound "bd*16?"
+d1 
+
+Iteration: 39000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 ~>) $ slow 2 $ "0(3,8) [5 7]") # sound "supergong"
+
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ sound "bd sd:1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # speed "1"
+
+nd1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "
+
+Iteration: 40000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6]* # s "supersaw"
+
+d1 $ n "c5 d5*2" # s5"
+
+d1 $ sound "arpy:cp hh"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # citory 4 (density 2) $ sound "bd hh sn cp"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.0225 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 1.125 ~>) $ sound "[bd sn] cp]
+
+Iteration: 41000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 9 11 14*2 [[b2 6 + up (rev) $ gain "[[1 0.8]*2 [3 4]" # sound "supergong"
+d1 $ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*2"
+d1 $ stack [arpy bass2 drum notes cps 
+drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn 
+
+Iteration: 42000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] snd")
+
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fatarert) # pitch1 "0.5" # speed "0.25 d5"
+
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush 4) $ sound "bd arpy sn ~"
+
+
+d1 $ rarely (# crush 4) $ sound "bd*8"
+
+d1 $ every 5 (|+| speed "0.5") $ every 4 (0.25 <~) $ every 3 (rev) $
+  sound "bd sn arpy*2 cp"
+  # speed "[1 1.25 
+
+Iteration: 43000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh hh hh hh"
+
+d3 $ sound "amples "arpy*8" # speed "0.75 1"
+d1 $ every 12 [d bruarerate "[0.5 ]>) # sustain "0.3")
+ # sustain "0.5" # speed "[0.5 2] ]") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n (eel "3") $ sound "arpy:0 arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd/2"
+d1 $ s
+
+Iteration: 44000
+every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "2"4"
+ # pan (run 8)
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 16))
+] # stain 8) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "<10.125 $ slow 2 $ "[[
+ sound "bd sn*2"
+          ]
+
+d1 $ fastcat [sound "bd sn:2" # vound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "arpy*8"
+
+Iteration: 45000
+(run 8)) # speed "0.25" # cut "2" >
+
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+dd sound "bd/2"
+d1 $ sound "bd*3"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 [sn cp]/2" 
+d1 $ sound "[bd sn sn]*4" # speed (delti.5 (-2) $ fast 4) $ sound "bd:3"
+d1 $ sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every d2 (density 2 $ tri)
+
+
+
+Iteration: 46000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can, bd hh sn cp]"
+d1 $ sound "bd bd*2")
+ se s5*2 sn*2"
+d1 $ staarpy cp hh" # n (run 10)
+
+d1 $ n (run 10) # s "drum arpy cp hh"
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn cp hh"
+
+d1 $ sound (samples "arpy*8" (run 16))
+ # speed "[arpy, bass2, bd]"
+
+
+d1 $ 
+
+Iteration: 47000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum" (run 6)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" |> speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ w"
+
+d1 $ sound "bd" bd hh cp mt arpy bass2 drum notes can}"
+
+
+d1 $ sound "superhat" (run 8)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2"
+
+d1 $ stack [
+  sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ 
+
+Iteration: 48000
+# sound "supergong"
+d1 $ sound "arpy" # speed "1"
+d1 $ every 2 (1000 ~>) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]]] cp*2 [bd sn] cp]/2"
+
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*3" # crush "1"
+
+d1 $ sound "arpy*8" # up (every 2 (* 2) "0 2"
+
+d1 $ n (slow 8 $ "[[c4,e4,g4,c5]*4 [e4, b5 g5]*3>" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # mi
+
+Iteration: 49000
+# sustain "0.125 0.7")
+d1 $ n (slow 8 $ "[[c4,a4, [> +]")
+
+d1 $ sound "sn:2*16" # speed ((range 0.5 3 sine) * (every 2 (|+ fp fp mrusonandid*4" sine*2" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate (slow 2) $ whenmod 5 3 (# speed "0.75 1.5") $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8], [1.5 2]*4]" [g  ]
+d "3"
+
+d1 $ gure" # susune)
+d1 $ s "supersaw"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ sound "[bd sd s3, 0.25 0.75"
+
+d1 $ pan "0 1 0.2
+
+Iteration: 50000
+(run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "[1 1.5 2 3 4]" # sound "arpy"
+
+d1 $ sound "arpy" # speed "[1, -1.5]/3"
+
+d1 $ whennmod 2 $ (const $ sound "arpy(3,8) bd*4") $ sound "bd sn garucere cp] cp hhh?"
+
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can, bd hh sn cp}"
+d1 $ sound "bd bd*2") $ sound "bd [sound "bd sd"
+
+d1 $ sound "bd bd . sd sd sd . bd sd] sd] [bd
+
+Iteration: 51000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (furev) fuo "4"
+d1 $ n (run 12) # sound "arpy".
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "drum:0 drum:1
+
+Iteration: 52000
+sn cp}"
+
+d1 $ sound "{bd sn drum arpy cp hh"
+
+solt1 6 2) $ sound "superhat:0*8" # sustain "0.125!6 1.25 <~) $ every 3 (rev) $
+  sound "bd sn arp supersw supersititator/) # sustain "0.5"
+ # voice "0.3" # lfo "3" # pitch1 "0.5" # speed "0.25 1"
+d1 $ every 12 (density 2 $ tri)
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sound "bd*8 sn*8" # speed (slow 4 $ range 0.8 1.1 sine) # sustain "8"
+d1 $ n "[c2 e3 g4 c5 c4 c3]/3" # s "[superpwm supersaw supersquare]/2
+
+Iteration: 53000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patt]) "0 1 2 3 4 5 3]/3"
+d1 $ n (every 4 (rev) $ n "<[g5 df5 e5 a5] [gf5 d5 c5 g5 b5]*3>" # s "supersaw"
+
+d1 $ n "3"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "3"
+d1 $ sound "arpy*8" # speed (run 8))
+
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (range (-2) 3 $ tri)
+
+d1 $ sound "
+
+Iteration: 54000
+d1 $ sound "bd"
+ # voice "0.2" # decay "[2 0.5]/4" # accelerate "-0.1" # speed "[0.5 2]/4" # accelerate "-0.1" # sustainsosinc "bd*4 sn sn*2 sn] sn]")
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (0.25 (# cutoff (range 300 1000 $ slow 4 $ sine) # resonance "0.7"
+
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 "[sd sd]"
+
+d1 $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp]"
+d1 $ sound "[bd bd bd, [sd sd] cp, arpy [arpy [arpy arpy, odx bd .]
+
+Iteration: 55000
+    sound "casio casio:1 casio:2*2",
+        ]
+
+
+
+d1 $ slow and $ saw)
+d1 $ sound "bd*8 sn*8" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 30)
+
+d1 $ sound "bd? sd? sd? sd?"
+
+p "drum*2"
+       sound "bd*2"
+
+d1 $ sound "bd? drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn arpy*2 cp"
+  # speed "[1 1.25 0.75 -1.5]/3"
+
+d1 $ whenmod 8 6 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [s
+
+Iteration: 56000
+    sound "casio casio:4* ...6" >>) $ fasty 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arup:2 drum:4*2"
+            ]
+d1 $ cat [sound "bd sn:2" # vowel "[a o]/2",
+         sound "casio casio:1 casio:2*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "[bd sn sn*3]/2 [bd sn] sn]"
+d1 $ sound (every 4 (fa]/2"
+        sound "casio casio:1 casio:2*2",
+        ]
+
+
+
+d1 $ sound "bd*4 sn*2"
+  "cass2, bd]/2]*2"
+d1 $ sound "[bd sn sn*3]/2 [bd sn
+
+Iteration: 57000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "sn:0 6 3"
+
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n (every 4 (* 2) "0 2")
+
+d1 $ n (off 0.125 (+12) $ off 0.25 (+7) $ slow 2 $ "0(3,8) [5 7]") # sound]"
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "[bd sn sn*3]/2 [bd sn*3 bd*4]/3"
+
+d1 $ const (sound "arpy*8" # up (every 2 (|* speed "0
+
+Iteration: 58000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fanl) 
+d1 $ sound "bd*8 sn*8" # speed (run 8)) # speed "2"
+d1 $ sound "bd*4" # gain "2"
+d1 $ n "[[c4,e4,g,, [a o ~, no e "0 5" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitory 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 
+
+Iteration: 59000
+1 0.25" # sound "arpy*4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 2 (|- note "3") $ every 2 (rev) $
+  sound (slow 2) $ every 4 (run 12) -- or with samples
+
+d1 $ s "drum arpy cp hh" # n (run 1 10. 1.125 [1.5 ~]/3"
+
+d1 $ w[3"
+
+d1 $ every 2 (|* speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 4 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (. 12 1.5" # sound "arpy"
+d1 $ up (run 12) # sound "arpy".
+d1 $ sound "a
+
+Iteration: 60000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "hc*8" (iter 4 $ run 4))
+
+xfadeIn 1 16 $ sound "bd(5,8)"
+
+
+d1 $ midinote "60 62*2" # s "supersaw"
+
+d1 $ n "3"
+d1 $ every 2 (|> speed "2"2)"
+
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[0.5 0.75 0.7" # sound "bd/2"
+d1 $ sound "bd sd"
+
+d1 $ sound "[bd bd] [bd [sd [sd
+
+Iteration: 61000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sine) # sustain "0.5" # release "4"
+ # voice "0.5" # resonance "0.9" # lfo "1" # speed "0.5" # crush "4"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8) bd*4") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (rev) $ every 4 (density 2) $ sound "sn:2*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~)
+
+d1 $ sound "arpy*8"
+
+Iteration: 62000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patterns
+
+d1 $ $ stain "[[
+ odx [sn cp]"
+d1 $ sound (slow 4 $ run 4) 
+de5 3"
+
+d1 $ every (3 8 6 (every 3 (# speed "2") $ sound "arpy*4" |ilons
+
+d1 $ cat [sound "bd sn:2" # vowel "[a   c]/2",
+         sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+        ]
+
+
+
+d1 $ slow 4 $ sound "superhat:0*8" # sustain "0.125!6 1.2" # accelerate "[0.5 -0.5]/4"
+d1 $ s "super808 supersq
+
+Iteration: 63000
+sn cp}"
+
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(5,8,2)"
+
+d1 $ sound "2"
+d1 $ sound "bd*4" # (every 3 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|+ speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|> speed "2") $ souns2 "bd*4"
+d1 $ sound "bd bd*2",
+ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1
+
+Iteration: 64000
+    sound "casio casio:1 casio:2*2",
+    |> speed "1 10" # sustain "0.5" # speed "[0.5 2]/4"
+d1 $ n (slow 8 "[[c5 e5 g5 c6]*4 [b4 e5 g5 b5]*4]") # s "superpiano"
+ # velocity "[1.20 0.9 0.8 1]"
+d1 $ n (slow 8 $ "[[c4,e4,g4,c5,g5]*4 [e4,g4,b5,e5]*4]" + "<12 7>"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "bd*16"
+
+d2 $ every
+
+Iteration: 65000
+every 2 (|+| speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "0.5" # cut "2"
+
+d1 $ stack [
+  sound (samples *an sin:2"
+
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 h] sn"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2"
+d1 $ sound "bd" # speed "[bd sn cp]"
+
+d1 $ sound "[bd bd bd, sd cus] 2 [
+  sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2"
+
+
+Iteration: 66000
+(run 8)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" >
+
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "0.25" # tri)
+
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sound "bd*8 sn*8" # speed (slow 4 $ range 0.8 1.1 sine) # sustain "8"
+d1 $ n "[c2 e3 g4 c5 c4 c3]/3" # s "[superpwm supersaw supersquare]/24" # sustain "0.5"
+ # voice "0.9" # semitone "70 16) # sound "supergong"
+d1 $
+
+Iteration: 67000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can hh hh sn"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn")
+
+d1 $ sound "hh hh hh hh"
+
+d3 $ sound "arpy"
+p "susan" $ sound "bd sd:1"
+
+p "gerard" $ sound "hh hh hh hh"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (slow 4 $ range 5 3 0.5 $ saw1)
+d1 $ sound "superhat:0*8" # "cush" degrade $ slow 2 $ range 0.8 1.1 sine) # sustain "8"
+
+
+Iteration: 68000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitch1 "0.5" # spee
+dd "1 0.5 2 1"
+d1 $ (const (sound "arpy*3") $ sound "bd/2"
+d1 $ sound "bd*3"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*16" # pan sine
+
+d1 $ sound "{arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, a
+
+Iteration: 69000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd sn? cp hh?"
+d1 $ sound "[bd bd bd] [sd sd]"
+
+d1 $ sound "[bd bd bd bd] [sd]"
+d1 $ sound "bd 14 0*) sn*2"
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1
+
+Iteration: 70000
+run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "hc*8" # speed "2" # tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 0.8 1.1 sine) # sustain "8"
+d1 $ n "[c2 e3 g4 c5 c3]/3" # s "[superpwm supersaw supersat:3"
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 16))
+]] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sound "bd*16"
+
+d1 $ sometimesBy 0.75 (# crush 4) $ sound "bd arpy sn arpy*2"
+        sound "drum drum:2 drum
+
+Iteration: 71000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d <~ (sound "bd sn cp hh?"
+d1 $ sound "[bd sn sn*3]/2 [bd sn*3 bd*4]/3"
+
+d1 $ sound "[bd [sn sn]*2" # speed (range (-2) 3 $ tri)
+
+d1 $ sound "{arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound $ samples "drum arpy cp 
+
+Iteration: 72000
+$ fast 4 $ sound "bd*2 [hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp bass2"
+
+d1 $ const (sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn bbd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[bd sn] cp]/2" 
+d1 $ sound "bd bd*2",
+ sound "hh*2 [sn cp]"
+
+Iteration: 73000
+cpl supersaw supersquare]/24" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lffons (# crush 4) $ sound "bd arpy sn ~"
+
+
+d1 $ rvery 4 (fast 4) $ sound "bd*2 [bd cp]/2" 
+d1 $ sound "[bd sn sn*3 bd*4" # gain "[[1 0.8]*2 [0.5 0.7]]/2"
+d1 $ sound "bd*4" # (every 3 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain 2) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 cp*2 hh sn"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1
+
+Iteration: 74000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0*2 0 70 2 3" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "arpy*4" #  every $ (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sound "bd*16"
+
+d1 $ sometimesBy 0.75 (# crush 4) $ sound "bd arpy*2 cp bass2"
+
+d1 $ const (sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (rev) $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ s
+
+Iteration: 75000
+# sound "supergong"
+d1 $ sound "arpy" # speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (|+ up "5") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n (every 4 (everate "4") $ sound "bd arpy*2" # pan "[0 .. 1.5 2 3"
+
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 16 3
+
+Iteration: 76000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd" # n "c5 d5*2" # se"dru""
+d1 $ sound "[bd bd] [sd sd sd] [bd sd""
+
+d1 $ sound "[bd bd bd] [sd]"
+d1 $ sound "[bd bd] [bd [sd sd]"
+
+d1 $ sound "[bd bd sn cp hh]?"
+
+d1 $ sound "bd cp 5,8)"
+
+
+
+d1 $ sound "bd(5,8,0 [5 5]/3"
+d1 $ sound "superpiano"
+ # velocity (slow 8 $ range 0.8 1.6 saw)
+
+d1 $ sound "arpy*8" # up (run 16))
+] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound sd? sd? sd?"
+
+d1 $ sound "[bd bd bd, [sd [sd sd] sd] [sd sd]"
+
+d1 $ speed 2
+d1 $ so
+
+Iteration: 77000
+d1 $ sound "bd"
+ d1 $ sound "bd/3"
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh ~0 cm aps "drum (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 30)
+
+d1 $ sound "bd? sd? sd*ed, [
+  sound "bd sd:0*2"
+
+d1 $ sound "bd? sd? sd*"
+d1 $ sound "[bd bd bd, sd cp sd cp, arpy arpy, bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # midinote "[80 6>) sn"
+
+d1 $ sp "drup 0.00 1.0 0.75 
+
+Iteration: 78000
+
+ass2"
+
+d1 $ sound "[bd bd bd, sd cp sd cp]"
+d1 $ sound "[bd bd bd, [sd sd] cp, arpy arpy, bass2, bd]"
+
+
+d1 $ sound "drum drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"0
+
+d1 $ sound "arpy*8" # up (every 2 (|+ usupersaw supersquare]/24" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitch1 "0.5" # speed "0.25 1"
+d1 $ every 16 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "0.25" # cut "2"
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8
+
+Iteration: 79000
+# sound "supergong"
+d1 $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "1 0.5 2 1.5" # srund "bd*2 cp*2 hh sn")
+
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "bd*4" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range 300 9000 ~ ~cossl $ sound "bd hh sn cp]"
+d1 $ sound "bd bd" $ sound "superh"
+
+d1 $ sound "hh hh hh"
+d1 $ sound (arpy cp hh" # attack "0.05"))
+ $ s "supergong" # decay "[1 0.2]/4"
+ # voice "[
+
+Iteration: 80000
+every 2 (|+ speed "1") $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "0*8" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound "bd*4"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (slow 0 drum:2 drum:3"
+
+d1 $ sound "bd(8 1 0.25 0.75" # sound "bd"
+
+Iteration: 81000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patterns
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2"
+        sound "arpy*3". # speed "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitch1 "0.5" # speed "0.25 1"
+d1 $ every 16 (density 2) $ sotes "suvery 2 (|+ nomtain "0.
+
+Iteration: 82000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "arpy(3,8)"
+  # coft"
+
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp run:2"
+
+
+d1 $ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 3 (# speed "0.75 1.5") $ stack [
+ bo sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+d1 $ sound "bd*16?"
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ 
+
+Iteration: 83000
+1 0.25" # sound "bd sd:3"
+d1 $ sound "bd sd:1"
+
+d1 $ sound "~ cp"
+
+solo 1 
+
+unsolo 1
+
+d1 $ sound "[bd sd sd 0, 0.25 0.75 -1.5]/4"
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d(3,8) sn*2"
+d1 $ sound "bd sd:2"
+d1 $ sound "bd/drum arpy cp hh"
+
+d1 $ (attack "0.5" # hold "4" # release "4"
+ # vore) # resonance "0.3" # lfo "3" # pitch1 "0.5" # speed "0.25 1"
+d1 $ every 16 (density 2) $ sound "bd hh sn cp"
+d1 $ (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+Iteration: 84000
+$ fucly 4) $ sound "bd*2"
+d1 $ sound "bd sn bass2 sn"
+Composing Multi-Pa-0 tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 5 0.5 $ saw, square, tri])
+d1 $ sound "sn:2*16" # speed ((range 0.5 3 sine) * (slow 4 saw))
+
+d1 $ sound "bd*8 sn*8" # speed (range 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 0.8 1.6 saw)
+
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |>
+
+Iteration: 85000
+4 3 4 6 # sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd sd:1"
+
+p "gerard" $ sound "hh hh hh hh"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (slopy casio:2*2",
+            sound "drum drum:2 drum:3 drum:4*2"
+           ]
+
+
+
+d1 $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] com) $ saw"
+
+d1 $ sound "bd <arpy:1 arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd:3"
+d1 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ eucl
+
+Iteration: 86000
+"bd*16?"
+d1 $ ded [arpy bass2 drum notes can}"
+
+d1 $ sound "[0 0.25 -1.5]/3"
+
+d1 $ speed "[0.5 0.7")
+$ $ sound "arpy*4" # pan (rand)
+
+d1 $ sound "arpy*4" # pan (range 0.22 0.5 $ saw:3"
+d1 $ n "[0 1 2 3 4 5 6 7 8 9 10 15" # sound "drum"
+d1 $ sound "bd sn drum arpy"
+
+d1 $ pator/4" # midinote ((irand 24) + 24)
+ # sustain "8" # attack "0.5" # hold "4" # release "4"
+ # voice "0.5" # resonance "0.9" # lfo "1" # speed "30" # pitch1 "4"
+d1 $ n "[c3 2 3 4 5 6 7] [3 3 3 . 7 7 /4" # sound "supercomiano"
+  
+
+Iteration: 87000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "c5 d5*2" # s "supersaw"
+
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd [sd (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (saw)
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ sound "[bd sd sd] cp"
+d1 $ sound "bd [1 0 2 4 5 6 7 8 9 10 11" # sound "arpy"
+d1 $ up (run 12) # sound "arpy".
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound $ samples "drum*4" "0 1 
+
+Iteration: 88000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd" # n "3"
+d1 $ sound "bd sd:3"
+d1 $ sound "bd sd:1"
+
+d2 $ sound "~0 6 6 tri)
+d1 $ sound "bd*8 sn*8" # speed (range "[
+  sin:2*2"
+         sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+           sound "casio casio:1 casio:2*2"
+            sound "bd*4" # crush 4) $ sound "bd arpy sn ~"
+
+
+d1 $ rarely (# crush 4) $ sound "bd*8"
+
+d1 $ every 5 (|+| speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") 
+
+Iteration: 89000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patterns
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+          sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+          ]
+
+
+
+d1 $ sta0*2" # cut "2"
+
+d1 $ stack [ "0.5") $ sound "drum"
+
+d1 $ sound ""
+ 1 6 (fup >rund *4) . (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd:3"
+d1 $ sound "bd
+
+Iteration: 90000
+    sound "casio casio:1 casio:2*2",
+             sound "drum drum:2 drum:3 drum:4*2"
+        ]
+
+
+
+d1 $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slowca2 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (range 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ rans "bd*4" # sustain "0.4 0.2"
+
+d1 $ stack [
+ sound basio:2*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             ]
+d1 $ cat [sound "bd sn:2" # vowel "
+
+Iteration: 91000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[bd sn]*2 cp]"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (1000.125 b5 e5 c5]*3>" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]") # s "supercomparator/4" # 
+
+Iteration: 92000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 2) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy sn ~"
+
+
+d1 $ rarely (# crush 4) $ sound "bd*8"
+
+d1 $ every 5 (|+| speed "1.5") $ up (run 8)
+
+d1 $ n "1 0.
+
+Iteration: 93000
+y 8 9 3 $ tri)
+d1 $ sound "bd*4 sn*2" # cut "1"
+  # cps h> speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (rev) $ every 4 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arp:2 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n (run 12) # sound "arpy".
+d1 $ sound "arpy*8" # up (every 2 (|* speed "2"4"
+ # p "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ s
+
+Iteration: 94000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2"
+
+d1 $ gare0 16 (   sound "casio casio:1 casio:2*2",
+         sound "cp, hh hh"
+
+d3 $ sound "arpy" # speed "[1 1.25 0.75 1.5" # sound "bd"
+d1 $ sound "bd(3,8) 
+
+Iteration: 95000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+d2 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "c- sin:2" # pan "cg5 0.5 3 1.5 0.7")
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ (0.25 ~>) $ so
+
+Iteration: 96000
+y 8 9 5 3 4 5 0] c4 c4 c3]/3" # s "[superpwm supersaw supersquare]/24" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitch1 "0.5" # speed "0.25 1"
+d1 $ every 16 (density 2) $ sound "bd hh hh sn cp"
+d1 $ whenmod 10 16) >>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [sn cp bd"
+
+
+d1 $ sound "{bd bd] [sd ed]/2"
+
+d1 $ rev (sound "bd sn cp hh
+
+Iteration: 97000
+# sound "supergong"
+d1 $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "1 0.5 2 1.5" # sound "arpy" |> noxes "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.7")
+d1 $ sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2"
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 16))
+] # speed "[[1 sn*2 cp*2 hh sn"
+
+d1 $ "[0 2 3]/2 [3 5]/2,g5]" + "<12 7>") $ sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn dru
+
+Iteration: 98000
+cp hh?"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn")
+
+d1 $ sound "hh hh hh hh"
+
+d3 $ sound "arpy"
+p "susan" $ sound "bd sd:1"
+
+p "gerard" $ sound "hh hh hh hh"
+d1 $ sound "bd sd:3"
+d1 $ sound "bd:supergong"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd/2"
+d1 $ sound "bd*3"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 4 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "{~ ~ + 5, []> <an ",
+ 
+
+Iteration: 99000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 ($ tri)
+
+d1 $ sound "bd*8 sn*8" # speed (rand)
+
+d1 $ s "drum arpy cp hh" # n (run 10)
+
+d1 $ n (run 10) # s "drum arpy bass2 drum notes can}"
+
+d1 $ sound "{0.5 0.75 0.7"
+d1 $ sound $ sumer"y*8" (run 8)) # speed "0.25" # n (off 0.125 (ee +0) $ sound "arpy*4" # n (irand 30)
+
+d1 $ sound "bd? sd? sd? sd?"
+
+d1 $ sound "[bd bd bd, [sd ep]/2" 
+d1 $ sp"
+d1 $ soupe "2 5"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "[bd sn sn*
+
+Iteration: 100000
+    sound "casio casio:1 casio:2*2"
+             ]
+
+d1 $ $ sound "bd*2 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part -1.0") $ sound "arpy*4" |> speed "1"
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (|> speed "2.4") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "0.5") $ every 4 (0.25 <~) $ every 3 (rev)
+
+Iteration: 101000
+every 2 (|+ speed "1") $ sound "arpy*4" |> spedd "0 5" # sustain "0.5"
+ # voice "0.9" # semitone "7.9" # resonance "0.3" # lfo "3" # pitch1 "0.5" # speed "2"
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "[2 2 1]" # sound "supergong"
+d1 $ n "[ 1, # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[c2 e3 g4 c5 c4 c1*3" # sound "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sou
+
+Iteration: 102000
+d1 $ sound "bd"
+ rpy cp hh [sound "bd sn:2" # vowel "[a o]/2",
+           sound "casio cade], sn" $ sound "bd"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp, arpy [arpy [arpy arpy] arpy arpy], odx]"
+d1 $ sound "bd [sd sd]"
+
+d1 $ sound "bd}? bd*4" # pitch1 "4"
+d1 $ sound "arpy" # speed "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "30.5" # pitch1 "4"
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d1 $ soun
+
+Iteration: 103000
+every 2 (|+ speed "1") $ sound "arpy*4" |> speed "2" # attack "0.5" # hold "4" # release "4"
+ # voice "0.5" # cel "arpy:3"
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" # pan (rand)
+
+d1 $ sound "arpy*4" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ sound (samples "arpy*8" (run 16))
+] # speege "2"
+d1 $ n (run 8) # sound "arpy"
+
+d1 $ sounsoloacce "0.9" # selteel "1" # speed "3" # cutoff (range 300 1000 $ slow 4 $ sine) # resansian
+
+Iteration: 104000
+    sound "casio casio:1 casio:2*2",
+           ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+          ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a-5, bnge "0.5" # hold "4" # release "4"
+ # voice "0.5" # resonance "0.9" # vowel "[a o]/2",
+            sound "casio casio:1 casio:2*2"
+            ]) $ sound "drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum arpy" # pan "0
+
+Iteration: 105000
+
+ass2 sn"
+d1 $ every 12 (3000 ~ ~ ~ + 50 12 -2"
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "[bd sn] cp:2"
+
+d1 $ sound "[[bd sn] cp]*2"
+ # sustain "1 0.25 2 1"
+d1 $ midinote (slow 2 $ (run 8) * 7 + 50) # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range "0 0.125 0.75 $ sound "bd*2 cp mnd arpy" # pan "cass2 $ (acp "3"
+d1 $ please (futaity (slow 8) $ whenmod 2 3 (# speed "0.5" # release "4"
+ # voceach 8)
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1
+
+Iteration: 106000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}%4"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "hh*2 [bd [sn sn]*2]/2 [bd [sn sn*3]/2 [bd sn*3 bd*4]/3"
+
+d1 $ sound "[bd [sn sn]*2]/2 [bd [sn bd]/2]*2"
+d1 $ rev (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (s
+
+Iteration: 107000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "hc*8" (iter 4 $ run 4))
+
+xfadeIn 1 16 $ sound "bd(5,8)"
+
+
+d1 $ midinote "60 62*2" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]]" + "<<a5, [] /3,g5,b5
+
+Iteration: 108000
+jy 24 . (|+| midinote "24") . (# sustain "0.3") . (# attack "0.05"))
+  # cons "drum arpy cp hh" (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (rev) $
+  sound "bd sn arpy*2 cp"
+  # speed "[1 1.25 0.75 -1.5]/3"
+
+d1 $ whenmod 8 6 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 
+
+Iteration: 109000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 1 2 3 4 5 6 7 8 9 10 11" # sound "drum:3"
+
+d1 $ n (run 4) # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range 5 0.5 $ saw1)
+d1 $ sound "superhat:0*8" # sustain "0.125!6 1.2" # accelerate "[0.5 -0.5]/4"
+d1 $ s "super808 supersquarell44"
+d1 $ sound "arpy*8" # up (every 2 (|+ up "5") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" # n "2 5"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ so
+
+Iteration: 110000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "bd(5,8)"
+
+
+d1 $ midinote "60 62*2" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # midinote "[80 62*2" # s "supersaw"
+
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6]*4]/4" sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ stack [
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "hc*8
+
+Iteration: 111000
+(run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ gairy :3 (# acp hh" # n "[8 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7 8 9 10 11" # sound "arpy"
+d1 $ up (run 12) # sound "arpy".
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (fast 4) $ sound "bd*2 
+
+Iteration: 112000
+every 2 (|+ speed "1") $ sound "arpy*4" |> speege 1.75 $ sound "bd*16"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp] cp hh"
+
+d1 $ sound "{[bd sn  sound "bd bd*2",
+ sound "hh*2 [sn cp] cp "hh*2 [sn"
+
+d1 $ 8 6 (const $ sound "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 3 (# speed "0.75 1.5") $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 3 (# speed "0.75 1.5") $ stack [
+ sound "bd bd*2"
+
+d1 $ sound "bd bd b
+
+Iteration: 113000
+y 8 9 (fast 4 2 6 $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" sine, squarer40 1.5 -0.5 -2 -1.5" # s "supersquare" # gain "0.7"
+
+d2 0ee "4"
+d1 $ gain "1 0.25 2 1"
+d1 $ midinote (slow 6 $ range 0.8 1.6 saw)
+
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|+ up $ sound "supergong"
+d1 $ n "[0 1 2
+
+Iteration: 114000
+# sound "supergong"
+d1 $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # "arpy*4" # pan "0 a5, b5,gs5,e5,g5]*3>" # s "supersquare" # gain "0.7"
+
+d2 $ every 4 (rev) $ n "<[g5 df5 e5 a5] [g5 e5 g5]*3>" # s "supersaw"
+
+d1 $ n "-0 att-) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy
+
+Iteration: 115000
+bass2 sn"
+d1 $ every 12 (const $ sh"
+d1 $ sound "bd*16"
+
+d1 $ sound "bd [sd sd sd sd] sd]"
+d1 $ sound "[bd bd] [sd sd sd sd] cp"
+d1 $ sound "bd sd? [d  sound "bd sn*2" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 5)
+ # voice "0.2" # decay "[2 0.5]/4" # accelerate "-0.1" # sustain "0.5"
+ # sass2"
+
+d1 $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd] [bd sd]"
+d1 $ sound "[bd bd bd, sd cp sd cp"
+  sound "hh*2 sn] cp/2"
+
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "[[bd sn]*4" 
+
+Iteration: 116000
+
+d*4") $ sound "bd sd"
+
+d1 $ sound "bd sd"
+
+d1 $ sound "[bd bd] [sd sd sd] [bd sd]"
+d1 $ sound "[bd bd bd, [sd sd] cp, arpy [arpy [arpy arpy] arpy arpy], arpy arpy], odx]"
+d1 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*3]/2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) $ gain "1 0.8 0.5 0.7")
+
+
+Iteration: 117000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1"
+d1 $ eucliare" # gain "0.7"
+
+d2 $ every 4 (rev) $ n "<[a5,cs5,e5,g5]*3]>" # s "<arpy"
+
+
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # const (sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd sn drum arpy" 
+
+Iteration: 118000
+$ fast 4 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd(5,8,0 [1 5"
+
+d1 $ somnd "arpy*4" # pan (range 0.25 0.75 $ range 0.25 $ slow 2 $ "0(3,8) [5 7]") # sound "supergong"
+
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6]*4" # sound "supergong"
+
+d1 $ n "c5 d5*2" # s "supersaw"
+
+d1 $ n "3"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ julery 4 (* 2) "0 2")
+
+d1 $ n (off 0.125 (+12) $ off 0.25 (+7) $ slow 2 $ "0(3,8) [5 7]") # sound "supergong"
+
+d1 $ n "[0 .. 3 7] [3 2 1]" # sound "bd
+
+Iteration: 119000
+# sound "supercomand" # sustain "0.3"
+
+d2 $ sound "bd*8"
+
+d1 $ every 5 (|+| speed "1.5") $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ slow 4 $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000 ~>) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0
+
+Iteration: 120000
+    sound "casio casio:1 casio:2*2"
+        ]
+
+
+
+d1 $ stack [
+ sound "bd bd*2",
+ sound "hh*2 [sn cp] cp future*4",
+ sound (samples "arpy*8" (run 16))
+] # speed "[[1 0.8], [1.5 2]*2]/3"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (sn2 
+2"
+
+d1 $ sound "[bd bd bd] [sd]"
+d1 $ sound "[bd bd bd, sd cp sd cp]"
+d1 $ sound "[bd bd bd, [sd sd] cp, arpy [arpy [arpy arpy] arpy arpy], odx]"
+d1 $ sound "bd <arpy:1 arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+Iteration: 121000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2*2"
+
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh hh hh hh"
+
+d3 $ sound "arpy"
+p "susan" $ sound "bd sd:1"
+
+p "gerard" $ sound "hh hh hh hh"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (samples arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # soun
+
+Iteration: 122000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can, bd hh hh samples "bd sn*2 hh n"
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+            sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+            ]
+d1 $ cat [sound "bd sn:2" # vowel "[a o]/2",
+             sound "casio casio:1 casio:2*2",. 
+d1 $ sound "bd*3"
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh hh hh hh"
+
+d3 $ sound "arpy".
+d1 $ sound "arpy*8" # up (every 2 (|
+
+Iteration: 123000
+# sound "supergong"
+d1 $ sound "arpy*8" # "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ w" (sound "bd*4 sn*2") $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ patory 4 (+02f~ [[0 1 2 9 10 11" # sound "arpy"
+d1 $ sound "bd*4" # crush "4" # speed "0.25 1"
+d1 $ every 16 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "0.7") $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp, arpy
+
+Iteration: 124000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+
+d1 $ (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 ([arpy 2>) . (rev) $ run 8)
+
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 10))
+
+d1 $ sound "bd sd:1"
+
+d2 $ sound "hh hh hh hh"
+
+d3 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ gain "1 0.8 0.5 0.7"
+d1 $ run 8)
+
+d1 $ sound (samples "arpy*8" (run 8)
+
+d1 $ sound "arpy*8" # up (run 8)
+d1 $ sound "arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d
+
+Iteration: 125000
+sn cp}"
+
+d1 $ sound "drum:0 drum:1 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ samples "drum*4" "0 1 1 0.25]/2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "bd*16" # pan (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # pan (density 1.75 $ sound "bd*16"
+
+d1 $ sometimesBy 0.75 (# crush 4) $ sound "bd arpy sn ~"
+
+
+d1 $ rarely (# accelerate "-0.1") $ s "supermandolin*8" # midinote "[80 1.12" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "bd sn? sn]*2]/2 [bd [sn sn*2 sn] sn]")
+d1 $ 
+
+Iteration: 126000
+cp bass2"
+
+d1 $ const (sound "bd*16"
+
+d1 $ usound "bd sn:2" # vowel "60 62*2"
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 2,8)"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound  sound "bd sd" >0 2,8) [odx/2 sd"
+
+d1 $ sound "bd bd /d sn cp]"
+
+d1 $ sound "bd bd . sd sd sd . bd sd"
+
+d1 $ sound "[bd bd* bd arpy cp hh"
+
+d1 $ sound $ sa stcat [sound "bd sn:2" # vowel "[a o]) drum arpy, bass2 ffl)
+
+d1 $ sound "bd*8 sn*8" # speed (r
+
+Iteration: 127000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8) bd*4") $ sound "bd sn bass2"
+
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notes can, bd hh arpy bass2 drum notes can}%hh"
+
+d1 $ sound "[bd sn sn*3 bd*4]/3"
+
+d1 $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "bd [sd sd sd sd]
+
+Iteration: 128000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "[0 1.25 -1.20.6 [arpy:2 arpy:3"
+d1 $ pan "0 1 0*2 0.8 0.5 0.75 0.75 3"
+
+d1 $ od "[[cg5 df5 e5 a5] [gf5 d5 c5 g5]*3>" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # midinote "[8)  # sustain "0.3") . (# attack "0.0
+
+Iteration: 129000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "bd*8" # pitch1 "4"
+d1 $ sound "arpy*8" # acp "1 0.8 0.5 0.7"
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "hc*8" (iteP 4,8)" # n "2 5"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8) bd*4") $ sound "bd sn? cp hh?"
+d1 $ sound "[bd sn cp hh]/2"
+
+d1 $ stack [0 0.25 0.75 -2 1.5" # sound "arpy"
+
+
+
+Iteration: 130000
+|| snd "bd(5,8,2)"
+
+d1 $ sound "[bd sd sd] cp"
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[[bd sn] cp]*2"
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound]"
+
+d1 $ sound "{bd hh bd] [bd [sd [sd sd] sd]"
+d1 $ sound "[bd bd bd, [sd sd]"
+
+d1 $ sound "[bd bd bd bd] [sd]"
+d1 $ sound "[bd bd bd, sd cp sd cp, arpy arpy, bd hh hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn")
+
+d1 $ sound "~ cp"
+
+setcpaer art PatteIn 1 1.5 1.6 sinl)
+
+d1 $ sound "bd*8 sn*8" # speed (
+
+Iteration: 131000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] cp]/2" 
+d1 $ sound "bd bd*2",
+      ]
+d1 $ catirasd 4) $ sound "bd*2 [bd hh hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp hh*4"
+
+d1 $ every 8 (rev) $ every 4 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp bass2"
+
+d1 $ const (sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8)" # n 2
+d1 $ (run 8) # sound "arpy"
+
+
+Iteration: 132000
+Muaso casio casio:1 cace "0.5" # "d1 $ sound "bd*8 sn*" # vowel "[a o]/2",
+            ]
+d1 $ cat [sound "bd sn:2" # vowel "[a o]/2",
+         sound "casio casio:1 casio:2*2",
+         sound "drum drum:2 drum:3 drum:4*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a] -1.5") $ every 2 (|: (run 10))
+
+d1 $ gain "1 0.8 0.5 0.7" # sound "bd"
+d1 $ every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "[1 5 3]/2,2 +) $ every 2 (rev) $ n "<[g5 df5 e5 a5] [3 2 1]" # sound
+
+Iteration: 133000
+# sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[
+ # sustaerpeadr arpy sine 1 10 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd*16?"
+d1 $ degose (-2) $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ "[cuture" # lidit") 1 2 . (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "0.5") $ s "drum"
+d1 $ sound (samplease casio:1 $ susound "bd sn:2"
+
+d1 $ sound "[bd [sn cp bass2 sn"
+
+d1
+
+Iteration: 134000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2"bd1 $ sound "bd sn drum arpy" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 30)
+
+d1 $ sound "sn:2*16" # speed ((range 0.5 3 sine) * (slow 4 saw))
+
+d1 $ sound "bd*8 sn*8" # speed (rand)
+
+d1 $ sound "arpy*4" # pan (range 0.25 0.75 $ rand)
+
+d1 $ s "arpy*8" # n (irand 30)
+
+d1 $ sound "bd? sd? sd? sd?"
+
+d1 $ sound "[bd bd bd, [bd sn]/2"
+
+d1 $ sound "[bd bd bd"
+
+
+d1 $ sound "~ cp"
+
+solo 1 
+
+unsolo 1
+
+d1 $ sound "[bd sd cp sd cp]"
+d1 $ soun
+
+Iteration: 135000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ every 4 (fast 4) $ sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every 4 (rev) (sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75"
+
+d1 $ parpy drum:2 drum:3 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ san, 6 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound "bd*4" # gain (every 3 (re
+
+Iteration: 136000
+ * 2)
+
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[[bd sn] cp]*2"
+           sound "casio .bsin}/2"
+
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd sd"
+
+d1 $ sound "bd sd hh cp mt arpy drum"
+
+d1 $ sound (range (-2) 3 $ tri)
+
+d1 $ sound "hh*32" # cutoff (range 300 1000 $ slow 4 $ sine) # resonance "0.4"
+
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "[bd bd] [sd sd sd]"
+
+d1 $ sou
+
+Iteration: 137000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0.85 <~) $ every 3 (rev) $ "1 0.8 0.5 0.7")
+d1 $ sound (samples "hc*8" (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp arpy], tri)
+
+d1 $ n (run 10) # s "drum arpy cp hh"
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd sn 4))
+
+d1 $ sound "bd(5,8)"
+
+
+d1 $ sound "[bd sn] cp/2"
+
+d1 $ sound "[bd sn sn*3]/2 [bd sn*3 bd*4]/3
+
+Iteration: 138000
+every 2 (|+ speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 [s
+
+Iteration: 139000
+every 2 (|+ speed "1") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "30")"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "-1 -0.5 -2 -1.5" # sound "[supergong"
+
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 9 5 8 9 10 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*4" # (every 3 (rev) $  sound "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ every
+
+Iteration: 140000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy) 
+d1 $ slow 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) $ sound "arpy*4" |> speeod 10c60/6) $ sound "bd*2"
+d1 $ sound "bd*3"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd*16?"
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade $ sound "bd*16"
+
+d1 $ degrade "[0.5 0]/8" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ slow 4 $ s
+
+Iteration: 141000
+(run 8)) # speed "0.25" # speed "[1 1.25 0.75 -1.5]/3"
+
+d1 $ whenmod 8 6 (rev) $ every 4 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp bass2"
+
+d1 $ const (sound "drum drum:2 drum:3 drum:4*2"
+         ]
+
+
+
+d1 $ stack [
+ sound "bd bd*2",
+ sound "[supergong"
+d1 $ n "[1 0.25 2] [gf5 d5 c5 g5]*3>" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supergong" # decay "[1 0.2]/4
+
+Iteration: 142000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patterns
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+         sound "casio casio:1 casio:2*2"
+            ]
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a o]/2",
+        sound "drum drum:2 drum:3 drum:4*2"
+       ]
+
+d1 $ (const fadeIn 1.6 1.sss bd]"
+
+d1 $ sound "[bd bd bd, sd cp sd cp, arpy arpy], arpy [arpy arpy], odx]"
+d1 $ sound "bd <arpy:1 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "
+
+Iteration: 143000
+"drum"
+d1 $ sound (hh sd:3"
+
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound "bd*16" # pattc4 (sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Mung [-.5 -. -0.5 2]/4"
+d1 $ s "supersaw8)
+
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(5,8,2)"
+
+d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd(8 3 2 1 1 14 (# speed "2"
+d1 $ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 2 $ sound "bd*2 [sn cp]"
+
+d1 $ sound "bd(5,8,0,b5]>" [g5 e5 e5 g5 b5]*4]") # s "superpiano"
+ # velocity "[1
+
+Iteration: 144000
+d1 $ sound "bd"
+ 1 0.25 2"
+
+d1 $ stack [
+  sound (samples "arpy*8" (run 115]/4" # attack "0.05"))
+ $ s "supercomparator/4" # midinote ((asn cc5 30.6 (# sndeece "0.5" # cut P~ 2 d|  n "0 1 2 1 5"
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*16" # pan sine
+
+d1 $ sound "[bd sn cp hh]/2"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "{arpy bass2 drum notg siterd 3
+d1 $ const (sound "arpy*3") $ sound "bd sn cp hh"
+
+d1 $ whenmod 8 6 (const $ sound "arpy(3,8) bd*4") $ sound "bd]
+
+Iteration: 145000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "arpy" 
+d1 $ speed "-1 -0.5 -2 -1.5" # sound "arpy"
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy(3,8)" # n ("0 2" * 2)
+
+d1 $ sound "arpy(3,8)" # n (slow 8 $ saw)
+d1 $ sound "bd*8 sn*8" # speed (densr) 
+ # sustain "0.4 0.2")
+
+d1 $ d1 $ sound "bd*8 sn*8" # speed (range 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 5 0.5 $ saw1)
+d1 $ sound "superhat:0*8" eutt")
+
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd
+
+Iteration: 146000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd" sin:2*2"
+          e] 4 9 $ sound "arpy*4"
+ # voice "0.2" # decay "[2 0.5]/4" # accelerate "-0.1" # sustain "0.5" # speed "[0.5]/4"
+d1 $ pid 30 1 1 1 (1 2 (|> speed "2") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n "2"
+d1 $ sound "arpy(3,8)" # n 2
+d1 $ sound "arpy(3,8)" # n ("0 2" *0 24) # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ ran
+
+Iteration: 147000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 s5 g5]*35" # sound "supergong"
+d1 $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "0.5"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ speed "1 0.5 2 1.5" # sound "arpy"  > "bd bd -bd hh sn cp]"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "drum"
+
+d1 $ sound (slow 4 $ range 5 0.5 $ saw1)
+d1 $ sound "superhat:0*8" (run 8)
+d1 $ sound "hh*32" # cutoff (range 300 1000 $ slouty 8) $ sound "bd*2 [bd [sn sn*2 sn]"
+d1 $ every 4 (rev) $ n "<[g5 df5 e5 a5] [gf5 d5 c5 g5]*3>" 
+
+Iteration: 148000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*4" # (run 8)
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound $ samples "drum*4" "0 1 d*4" # ponst (sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.0625 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0*25 <~) $ sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (0.25 ~>) $ sound "bd*2 cp*2 hh sn")
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn cp hh"
+
+
+
+Iteration: 149000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part, mrund "[a1, bvery 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "1.5") $ sound "arpy*4" |> speed "1"
+d1 $ every 3 (|- note "3") $ every 2 (|+ up "5") $ sound "arpy*4" |> note "0 2 4 5"
+d1 $ sound "arpy(3,8)" p # n (every 4 ((* 2) "0 2")
+
+d1 $ n (off 0.125 (+12) $ off 0.25 (+7) $ slow 2 cc. 7 +.2 <~) $ every 3 (rev) $
+  sound "bd sn arpy*2 cp"
+  # speed "[1 1.25 0.75 -1.5]/3"
+
+Iteration: 150000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "[arpy, bass2, bd]"
+
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum cp" >|? sound $ samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn arpy*8" # speed (run 8)
+
+d1 $ up (run 8) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|e saw)
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "drum cp" >|  n
+
+Iteration: 151000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "bd sn sn" *2 3"
+d1 $ julery 2 (|> speed "2") $ sound "arpy*4" |> speed eru4,84)"
+
+
+setcps 
+bd([hh 7h" sp er:2"
+
+d1 $ sound (samples "arpy*8" (run 16))
+]
+
+d1 $ every 4 (slow 2) $ whenmod 5 3 [0 8 3 4 1 10 128) # s "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range 5 0.5 $ samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum a
+
+Iteration: 152000
+ every 4 (1000.25 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ every 3 (0.25 <~) $ sound "bd*2 arpy*2 cp hh*2 [sn cpastcat] .. 1.5 0.9 0.8 1.2" # sound "bd"
+
+d2 $ sound "bd sd"
+
+d1 $ sound hh sd] sn"
+d1 $ sound "~ cp"
+
+solo 1 
+
+unsolo 1
+
+d1 $ sound "[bd sn sn*3 bd*4]/3"
+
+d1 $ sound "[bd bd bd, sd cp sd cp]"
+d1 $ sound "bd bd . sd sd sd . bd sd"
+
+d1 $ sound "[bd bd] [sd sd sd] [bd sd]"
+d1 $ sound "bd bd ~ bd"
+
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp"
+d1 $ sound "~c-sh $ samples "drum*4" "0 1 2 3"
+
+d1 $ soun
+
+Iteration: 153000
+$ fast 4 $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) "bd*2 [bd [sn sn*2 sn] sn]")
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # sustain 8) # sound "arpy"
+
+d1 $ sound "arpy*8" # up (every 2 (|> speed "2") $ sound "arpy*4" |> speed "1"
+d1 $ every 2 (|* speed "0.5") $ every 8 (|+ up "5") $ sound "arpy*2" |> speed "1") # speed "[1 0.25 0.75 -1.5]/3"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supermandolin*8" # midinote "[80 1
+
+Iteration: 154000
+every 2 (|+ speed "1") $ sound "arpy*4" |
+ # p "3"
+d1 $ n "[c2 e3 g4 c5 c4 cp*4 c3]/3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+d1 $ n "0 2 3" # s "arpy"
+
+
+d1 $ sound "arpy:0 arpy:2 arpy:3"
+
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 3 8 $ sound "bd" # n "3"
+d1 $ sound "bd sd"
+
+d1 $ sound "[bd bd] [sd sd sd] [bd sd]"
+d1 $ sound "[[bd sn] cp]/2" 
+d1 $ sound "[bd sn sn*3]/2 [bd sn*
+
+Iteration: 155000
+d1 $ sound "bd"
+ d1 $ sound "bd:3"
+d1 $ sound "bd"
+d1 $ sound "bd bd . sd sd sd . bd sd"
+
+d1 $ sound "[bd bd] [bd [sd sd] cp, arpy [arpy [arpy arpy] arpy arpy], odx]"
+d1 $ sound "bd <arpy:1 arpy:2 arpy:3>"
+d1 $ sound "bd*2"
+d1 $ sound "bd/2"
+d1 $ sound "bd*3"
+d1 $ sound "bd/3"
+d1 $ sound "[bd sn]*2 cp"
+
+d1 $ sound "[bd sn] cp"2"
+
+d1 $ sound "bd sn drum arpy" # pan "
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "bd*4" # crush "4" # speed "2"
+d1 $ sound "bd*4" # gain "1 0.8 0.5 0.7"
+d1 $ every 4 (fast
+
+Iteration: 156000
+y 8 3 4 9 100 1100" # sund [sd [sd sd] [bd sd]"
+d1 $ sound 1"
+
+d1 $ sound "bd <arpy:1 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ samples "drum arpy cp hh" # n (run 10)
+
+d1 $ n (run 16) # sound "arpy".
+d1 $ sound "bd(5,8)"
+
+d1 $ euclid 5 8 $ sound "bd"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sound "bd(3,8) sn(5,8)"
+
+d1 $ sound e{ery 4 (density 2) $ sound "bd hh sn cp"
+d1 $ whenmod 16 14 (# speed "2") $ sound "bd arpy*2 cp barpy bass2 drum notes "bd sn? cp bass2 sn"
+
+d1 $ sound "bd**2"
+d1 $ sou
+
+Iteration: 157000
+1 0.25" # sound "bd sn drum arpyy bass2 drum notes can}"
+
+d1 $ sound 508c60 1.25" # sound "supergong"
+d1 $ sound "arpy" # speed ururure*4" # sustain "0.5" # tri)
+d1 $ sound "bd*8 sn*8" # speed (density 2 $ drund "[1 1.25 0.75 <~) $ sound "bd*2 [bd [sn sn*2 sn] sn]"
+d1 $ sound (every 4 (fast 4) $ sound "arpy" # speed "1"
+
+d1 $ sound "arpy" # speed "2"
+d1 $ sound "bd*4" # (every 3 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound (samples "casio:drun sun}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+Iteration: 158000
+sn cp}"
+
+d1 $ sound "~,8)" # sustain "0.125 0.7")
+d1 $ n (slow 8 $ "[[c4,eg4,c5]") # s "supercomparator8 6 (slow 8 . 7 future" >|  n "0 1*2 +*2 [c5 e5 g5 c6]*4 [b4 e5 g5 b5]*4]") # s "superpiano"
+ # velocity "[1.20 0.9 0.8 1]"
+d1 $ n (slow 8 $ "[[c4,e4,g4,c5]*4 [e4,g4,b5,e5]*4]" + "<12 5]") # sound "supergong"
+
+d1 $ n "<[g5 e5 ]4 c5 g5]b3]/3" # s "supersaw"
+
+d1 $ n "0 5" # s "supersaw"
+
+d1 $ n "c5 d5*2" # s "supersaw" # sustain "0.4 0.2"
+
+d1 $ jux (# accelerate "-0.1") $ s "supermandolin*8" # mi
+
+Iteration: 159000
+run 8)) # speed "0.25" # cut "1",
+  sound (samples "bass2*6" (run 6)) # speed "0.5" # cut "2" ]
+
+d1 $ sound (samples "hc*8" (iter 4 $ run 4))
+
+xfadeIn 1 14 $ sound "bd(5,8)"
+
+
+d1 $ midinote "60 62*2" # s "supersaw"
+
+d1 $ n "<[a5,cs5,e5,g5]*3]>" # s "[superpwm arpy cp hh"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25"
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "0.25" # cut "2" ]
+
+d1 $ sound (samples "casio:drun supy" # sustain "0.5"
+
+Iteration: 160000
+bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+d1 $ every 12 (const $ sound "bd*4 sn*2") $ sound "bd sn bass2 sn"
+Composing Multi-Part Patterns
+
+d1 $ fastcat [sound "bd sn:2" # vowel "[a  o5*25 b5 g5 b5]*4]") # s "superpiano"
+ # velocity "[1.20 0.9 0.8 1]"
+d1 $ n (slow 8 $ "[[b "
+ od [sound "bd sn drum arpy" # pan "0 1 0.25 0.75"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound "bd sn drum arpy"
+
+d1 $ pan "0 1 0.25 0.75" # sound 
+
+Iteration: 161000
+|1.60 f5 d5*2" # s "supersaw"
+
+d1 $ n "[0 1 2 3 4 5 [4 7] [3 .4 1" # sound "supergong"
+d1 $ n "[0 .. 7] [3 .. 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 74 c3]/ # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong" # decay "[1 0.2]/4"
+ # voice "[0.5 0]/8" # sustain (slow 16 $ range 5 0.5 $ saw1)
+d1 $ sound "superhat:0*8" # sustain "0.125!6 1.2" # atcelerate "[0.5 -0.5]/4"
+d1 $ sound "drum:0 drum:1 drum:2 drum:3"
+
+d1 
+
+Iteration: 162000
+arpy cp hh"
+
+d1 $ sound (samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn drum arpy".
+
+d1 $ speed "1 0.5 2 1.5" # sound "arpy"
+d1 $ sound "arpy" # speed "[1, 1.5]"
+d1 $ speed "[1 0.5, 1.5 2 3 4]" # sound "superhate "[0.5 0]/8" # sustain (slow 16 $ range 5 0.5 $ sawe3"
+
+d2 $ every 4 (rev) (sound "bd*2 cp*2 hh sn"
+d1 $ every 3 (1000.125 ~>) $ sound "bd*2 cp*2 hh sn"
+
+d1 $ "[0 0.25]/4" <~ (sound "bd*2 cp*2 hh sn")
+
+d1 $ sound "hh*32" # cut "1"
+
+
+d1 $ sound (samples "arpy*8" (run 8)) # speed "
+
+Iteration: 163000
+1 0.25" # sound "bd sn drum arpy"
+
+d1 $ up "0 0*2 0*4 1" # sound "arpy" 
+d1 $ speed "-1 -0.5 -2 -1.5" # sound "arpy"
+d1 $ stack [
+  souanp"
+
+d1 sixone}"
+
+d1 $ sound "drum" >|  n "0 1*2 ~ 3"
+
+d1 $ sound "drum cp" >|  n "0 1 2"
+
+d1 $ sound "bd*4" # (every 3 (rev) $ gain "1 0.8 0.5 0.7")
+d1 $ sound $ $ sdund"
+
+d1 $ slow 4 $ sound "sn:2*16" # speed ((range 0.5 3 sine) * (slow 4 saw))
+
+d1 $ sound "bd*8 sn*8" # speed (range 1 3 $ tri)
+d1 $ sound "bd*8 sn*8" # speed (slow 4 $ range 5 0.5 $ saw1)
+d1 $ s
+
+Iteration: 164000
+sn cp}"
+
+d1 $ sound "{~ ~ ~ ~, arpy bass2 drum notes can}"
+
+d1 $ sound "~ cp"
+
+solo 1 
+
+unsolo 1
+
+d1 $ sound "[bd sd sd] cp"
+d1 $ sound "bd [sd sd]"
+
+d1 $ sound "bd [sd (sound "bd sn? cp hh?"
+d1 $ sound "[bd sn cp hh]?"
+
+d1 $ sound "[bd sn sn*3]/2 [bd sn*3 bd*4]/3"
+
+d1 $ sound "[[bd sn] cp]/2" 
+d1 $ sound "bd [sd sd sd sd]"
+
+d1 $ sound "[bd bd] [sd sd sd sd] cp, arpy [arpy [arpy arpy] arpy arpy, o]/2"
+
+d1 $ sound "bd*4" # crush "4"
+d1 $ sound "hh*32" # cutoff (range 300 1000 $ slow 4 $ sine) # r
+
+Iteration: 165000
+# sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ n "[0 1 2 3 4 5 6 7] [3 2 1]" # sound "supergong"
+d1 $ jum note "0.5" # speed "[2 1.55 1.5" # sound "arpy*4" |> pan "0 1 0.25 0.75" # sound "bd sn drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ samples "drum*4" "0 1 2 3"
+
+d1 $ sound "drum:0 drum:1 drum:2 drum:3"
+
+d1 $ n (run 4) # s "drum"
+d1 $ sound $ samples "drum arpy cp hh" (run 10))
+
+d1 $ sound "bd sn bass2 sn"
+d1 $ every 12 (const $ sound "bd sn cp hh]?"
+
