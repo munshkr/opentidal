@@ -16,32 +16,18 @@ Note: This skeleton file can be safely removed if not needed!
 """
 
 import argparse
-import sys
 import logging
+import sys
 
-from opentidal import __version__
+from bottle import run as run_server
+
+from opentidal import __version__, routes
 
 __author__ = "Damián Silvani"
 __copyright__ = "Damián Silvani"
 __license__ = "apache"
 
 _logger = logging.getLogger(__name__)
-
-
-def fib(n):
-    """Fibonacci example function
-
-    Args:
-      n (int): integer
-
-    Returns:
-      int: n-th Fibonacci number
-    """
-    assert n > 0
-    a, b = 1, 1
-    for i in range(n-1):
-        a, b = b, a+b
-    return a
 
 
 def parse_args(args):
@@ -55,29 +41,30 @@ def parse_args(args):
     """
     parser = argparse.ArgumentParser(
         description="Just a Fibonacci demonstration")
-    parser.add_argument(
-        "--version",
-        action="version",
-        version="opentidal {ver}".format(ver=__version__))
-    parser.add_argument(
-        dest="n",
-        help="n-th Fibonacci number",
-        type=int,
-        metavar="INT")
-    parser.add_argument(
-        "-v",
-        "--verbose",
-        dest="loglevel",
-        help="set loglevel to INFO",
-        action="store_const",
-        const=logging.INFO)
-    parser.add_argument(
-        "-vv",
-        "--very-verbose",
-        dest="loglevel",
-        help="set loglevel to DEBUG",
-        action="store_const",
-        const=logging.DEBUG)
+    parser.add_argument("--version",
+                        action="version",
+                        version="opentidal {ver}".format(ver=__version__))
+    parser.add_argument('-H',
+                        '--host',
+                        default='localhost',
+                        help='server hostname')
+    parser.add_argument('-P',
+                        '--port',
+                        default=3000,
+                        type=int,
+                        help='server port')
+    parser.add_argument("-v",
+                        "--verbose",
+                        dest="loglevel",
+                        help="set loglevel to INFO",
+                        action="store_const",
+                        const=logging.INFO)
+    parser.add_argument("-vv",
+                        "--very-verbose",
+                        dest="loglevel",
+                        help="set loglevel to DEBUG",
+                        action="store_const",
+                        const=logging.DEBUG)
     return parser.parse_args(args)
 
 
@@ -88,8 +75,10 @@ def setup_logging(loglevel):
       loglevel (int): minimum loglevel for emitting messages
     """
     logformat = "[%(asctime)s] %(levelname)s:%(name)s:%(message)s"
-    logging.basicConfig(level=loglevel, stream=sys.stdout,
-                        format=logformat, datefmt="%Y-%m-%d %H:%M:%S")
+    logging.basicConfig(level=loglevel,
+                        stream=sys.stdout,
+                        format=logformat,
+                        datefmt="%Y-%m-%d %H:%M:%S")
 
 
 def main(args):
@@ -100,9 +89,8 @@ def main(args):
     """
     args = parse_args(args)
     setup_logging(args.loglevel)
-    _logger.debug("Starting crazy calculations...")
-    print("The {}-th Fibonacci number is {}".format(args.n, fib(args.n)))
-    _logger.info("Script ends here")
+
+    run_server(host=args.host, port=args.port)
 
 
 def run():
