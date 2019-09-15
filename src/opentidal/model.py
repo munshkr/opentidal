@@ -80,20 +80,23 @@ def train(model_path, num_epochs=1000, resume=True):
         print("Model saved in path: {}".format(path))
 
 
-def predict(model_path):
+def predict(model_path, sample_length=500):
+    #if not os.path.exists(model_path):
+    #raise RuntimeError("{} not found".format(model_path))
+
+    data_provider = DataProvider(TIDAL_DATASET_NAME, BATCH_SIZE,
+                                 SEQUENCE_LENGTH)
+    model = RNNModel(data_provider.vocabulary_size,
+                     batch_size=1,
+                     sequence_length=1,
+                     hidden_layer_size=HIDDEN_LAYER_SIZE,
+                     cells_size=CELLS_SIZE,
+                     training=False)
+
     with tf.Session() as sess:
         saver = tf.train.Saver()
-        if resume and os.path.exists(model_path):
-            saver.restore(sess, model_path)
+        saver.restore(sess, model_path)
 
-        data_provider = DataProvider(data_dir, BATCH_SIZE, SEQUENCE_LENGTH)
-        model = RNNModel(data_provider.vocabulary_size,
-                         batch_size=1,
-                         sequence_length=1,
-                         hidden_layer_size=HIDDEN_LAYER_SIZE,
-                         cells_size=CELLS_SIZE,
-                         training=False)
         text = model.sample(sess, data_provider.chars,
-                            data_provider.vocabulary,
-                            TEXT_SAMPLE_LENGTH).encode("utf-8")
+                            data_provider.vocabulary, sample_length)
         return text
