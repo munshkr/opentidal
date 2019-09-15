@@ -1,16 +1,17 @@
 import codecs
-import os
 import collections
+import os
+import random
+
 import numpy as np
 
 
 class DataProvider:
     def __init__(self, data_dir, batch_size, sequence_length):
         self.batch_size = batch_size
+        self.data_path = os.path.join('data', data_dir, "input.txt")
         self.sequence_length = sequence_length
-        with codecs.open(os.path.join('data', data_dir, "input.txt"),
-                         "r",
-                         encoding="utf-8") as file:
+        with codecs.open(self.data_path, "r", encoding="utf-8") as file:
             data = file.read()
         count_pairs = sorted(collections.Counter(data).items(),
                              key=lambda x: -x[1])
@@ -50,3 +51,13 @@ class DataProvider:
 
     def reset_batch_pointer(self):
         self.pointer = 0
+
+    def append(self, sample):
+        with codecs.open(self.data_path, 'a+') as f:
+            f.write(sample.strip() + "\n")
+
+    def get_samples(self, num_samples):
+        with codecs.open(self.data_path, 'r') as f:
+            dataset = f.read()
+            samples = [s.strip() for s in dataset.split("\n")]
+            return random.sample(samples, num_samples)

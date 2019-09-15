@@ -9,7 +9,9 @@ import tensorflow as tf
 from opentidal.data_provider import DataProvider
 from opentidal.rnn_model import RNNModel
 
-TIDAL_DATASET_NAME = 'tidal'
+DEFAULT_MODEL_PATH = os.path.join('models', 'tidal.ckpt')
+DEFAULT_DATASET_NAME = 'tidal'
+
 LOGGING_FREQUENCY = 100
 
 # Hyperparams
@@ -22,7 +24,7 @@ CELLS_SIZE = 2
 
 
 def train(model_path, num_epochs=1000, resume=True):
-    data_provider = DataProvider(TIDAL_DATASET_NAME, BATCH_SIZE,
+    data_provider = DataProvider(DEFAULT_DATASET_NAME, BATCH_SIZE,
                                  SEQUENCE_LENGTH)
     model = RNNModel(data_provider.vocabulary_size,
                      batch_size=BATCH_SIZE,
@@ -80,11 +82,13 @@ def train(model_path, num_epochs=1000, resume=True):
         print("Model saved in path: {}".format(path))
 
 
-def predict(model_path, sample_length=500):
+def predict(model_path, sample_length=500, num_samples=1):
     #if not os.path.exists(model_path):
     #raise RuntimeError("{} not found".format(model_path))
 
-    data_provider = DataProvider(TIDAL_DATASET_NAME, BATCH_SIZE,
+    tf.reset_default_graph()
+
+    data_provider = DataProvider(DEFAULT_DATASET_NAME, BATCH_SIZE,
                                  SEQUENCE_LENGTH)
     model = RNNModel(data_provider.vocabulary_size,
                      batch_size=1,
@@ -93,10 +97,14 @@ def predict(model_path, sample_length=500):
                      cells_size=CELLS_SIZE,
                      training=False)
 
+    saver = tf.train.Saver()
+
     with tf.Session() as sess:
-        saver = tf.train.Saver()
         saver.restore(sess, model_path)
 
-        text = model.sample(sess, data_provider.chars,
-                            data_provider.vocabulary, sample_length)
-        return text
+        res = []
+        for _ in range(num_samples):
+            text = model.sample(sess, data_provider.chars,
+                                data_provider.vocabulary, sample_length)
+            res.append(text)
+        return res

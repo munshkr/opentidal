@@ -22,12 +22,18 @@
 
 	<section>
 	    <h3>WATCH & LEARN</h3>
-	    <div id="resultadoIteracion">
-	    	<p class="code">
-	    	d1 $ sound "bd sd:1"<br/> 
-	    	d2 $ sound "hh hh hh hh"<br/> 
-	    	d3 $ sound "arpy"
-	    	</p>	
+		  % for sample, predicted_sample in zip(samples, predicted_samples):
+			<div class="resultadoIteracion">
+				<p class="code human">
+					{{sample}}
+				</p>	
+			</div>
+			<div class="resultadoIteracion">
+				<p class="code ai">
+					{{predicted_sample}}
+				</p>	
+			</div>
+		% end
 	    </div>
 	</section>
 

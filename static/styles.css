@@ -1,79 +1,86 @@
 body {
-	font-family: 'Open Sans', sans-serif;  
+  font-family: "Open Sans", sans-serif;
 }
 section {
-	display: block;
+  display: block;
 }
 #container {
-	/*display: flex;
+  /*display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;*/
 
-	width: 80%;
-	margin-left: auto;
- 	margin-right: auto;
-	/*text-align: center;*/
-
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /*text-align: center;*/
 }
 
-hgroup,a {
-	font-family: 'Roboto', sans-serif;  
+hgroup,
+a {
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-	font-size: 4em; 
-	font-weight: 200;
-	color: #666;
-	padding-bottom: none;
-	margin-bottom: none;
+  font-size: 4em;
+  font-weight: 200;
+  color: #666;
+  padding-bottom: none;
+  margin-bottom: none;
 }
- 
+
 h2 {
-	font-size: 1em; 
-	font-weight: 600;
-	color: #333;
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
 }
 .about {
-	font-size: 1em;
-	font-weight: 300;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;  
+  font-family: "Open Sans", sans-serif;
 }
- 
+
 nav {
   display: block;
 }
 
 legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
 }
 
 .output {
-    font: 1rem 'Fira Sans', sans-serif;
+  font: 1rem "Fira Sans", sans-serif;
 }
 
 input {
-    margin: .4rem;
+  margin: 0.4rem;
 }
 
 .code {
-	font-family: 'Roboto', sans-serif;
-	color: #333;
-	background-color: #c6f1c6;
-	padding: 1em;
-	width: 50%;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  padding: 1em;
+  width: 50%;
+}
+
+.code.human {
+  background-color: #c6f1c6;
+}
+
+.code.ai {
+  background-color: #c6e2f1;
 }
 
 .collab {
-	font-family: 'Roboto', sans-serif;
-	color: #333;
-	padding: 1em;
-	width: 50%;
-	font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  padding: 1em;
+  width: 50%;
+  font-weight: 100;
 }
 
 .button {
@@ -88,5 +95,5 @@ input {
 }
 
 section {
-	margin: auto;
+  margin: auto;
 }
