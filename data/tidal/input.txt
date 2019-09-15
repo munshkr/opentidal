@@ -77,11 +77,6 @@ d1 $ sound "bd(3,8) sn(5,8)"
 d1 $ sound "bd(5,8,2)"
 d1 $ euclid 3 8 $ sound "bd*2 [sn cp]"
 d1 $ sound "bd([5 3]/2,8)"
-setcps 1
-setcps 1.5
-setcps 0.75
-setcps 10
-setcps (140/60/4)
 d1 $ sound "cp(3,8)" # cps (slow 8 $ range 0.8 1.6 saw)
 d1 $ sound "arpy*8" # up (run 8)
 d1 $ sound "arpy*8" # speed (run 8)
