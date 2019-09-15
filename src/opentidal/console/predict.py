@@ -98,9 +98,11 @@ def main(args):
     args = parse_args(args)
     setup_logging(args.loglevel)
 
-    for _ in range(args.num_samples):
-        code = predict(args.model, sample_length=args.sample_length)
-        print(code)
+    samples = predict(args.model,
+                      num_samples=args.num_samples,
+                      sample_length=args.sample_length)
+    for sample in samples:
+        print(sample)
         print("\n---\n")
 
 

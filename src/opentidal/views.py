@@ -1,4 +1,5 @@
 import json
+import random
 
 from bottle import get, post, redirect, request, response, static_file, view
 
@@ -16,7 +17,8 @@ def index():
     samples = data_provider.get_samples(5)
     predicted_samples = predict(DEFAULT_MODEL_PATH, num_samples=5)
     predicted_samples = [
-        sample.split("\n")[0].strip() for sample in predicted_samples
+        random.sample(sample.split("\n"), 1)[0].strip()
+        for sample in predicted_samples
     ]
     return dict(version=__version__,
                 samples=samples,
