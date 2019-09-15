@@ -21,7 +21,7 @@ import sys
 
 from bottle import run as run_server
 
-from opentidal import __version__, routes
+from opentidal import __version__, views
 
 __author__ = "Damián Silvani"
 __copyright__ = "Damián Silvani"
@@ -90,7 +90,7 @@ def main(args):
     args = parse_args(args)
     setup_logging(args.loglevel)
 
-    run_server(host=args.host, port=args.port)
+    run_server(host=args.host, port=args.port, reloader=True)
 
 
 def run():
