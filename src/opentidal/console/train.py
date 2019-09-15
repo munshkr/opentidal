@@ -17,6 +17,7 @@ Note: This skeleton file can be safely removed if not needed!
 
 import argparse
 import logging
+import os
 import sys
 import warnings
 
@@ -46,9 +47,9 @@ def parse_args(args):
     parser.add_argument("--version",
                         action="version",
                         version="opentidal {ver}".format(ver=__version__))
-    parser.add_argument('-o',
-                        '--output',
-                        default='model.ckpt',
+    parser.add_argument('-m',
+                        '--model',
+                        default=os.path.join('models', 'tidal.ckpt'),
                         help='path to saved model (tf session)')
     parser.add_argument('--num-epochs',
                         type=int,
@@ -91,7 +92,7 @@ def main(args):
     args = parse_args(args)
     setup_logging(args.loglevel)
 
-    train(args.output, num_epochs=args.num_epochs, resume=True)
+    train(args.model, num_epochs=args.num_epochs, resume=True)
 
 
 def run():

@@ -48,4 +48,5 @@ MANIFEST
 # Per-project virtualenvs
 .venv*/
 
-.vscode/
+/.vscode/
+/models/

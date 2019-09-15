@@ -8,7 +8,7 @@ class DataProvider:
     def __init__(self, data_dir, batch_size, sequence_length):
         self.batch_size = batch_size
         self.sequence_length = sequence_length
-        with codecs.open(os.path.join(data_dir, "input.txt"),
+        with codecs.open(os.path.join('data', data_dir, "input.txt"),
                          "r",
                          encoding="utf-8") as file:
             data = file.read()

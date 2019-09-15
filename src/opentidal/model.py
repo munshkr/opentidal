@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 
@@ -9,6 +10,7 @@ from opentidal.data_provider import DataProvider
 from opentidal.rnn_model import RNNModel
 
 TIDAL_DATASET_NAME = 'tidal'
+LOGGING_FREQUENCY = 100
 
 # Hyperparams
 BATCH_SIZE = 32
@@ -17,10 +19,6 @@ LEARNING_RATE = 0.01
 DECAY_RATE = 0.97
 HIDDEN_LAYER_SIZE = 256
 CELLS_SIZE = 2
-
-
-def load_model():
-    pass
 
 
 def train(model_path, num_epochs=1000, resume=True):
@@ -36,8 +34,8 @@ def train(model_path, num_epochs=1000, resume=True):
         saver = tf.train.Saver()
 
         summaries = tf.summary.merge_all()
-        writer = tf.summary.FileWriter(tensorboard_dir)
-        writer.add_graph(sess.graph)
+        #writer = tf.summary.FileWriter(tensorboard_dir)
+        #writer.add_graph(sess.graph)
         sess.run(tf.global_variables_initializer())
 
         if resume and os.path.exists(model_path):
@@ -63,7 +61,7 @@ def train(model_path, num_epochs=1000, resume=True):
                 summary, loss, state, _ = sess.run(
                     [summaries, model.cost, model.final_state, model.train_op],
                     feed)
-                writer.add_summary(summary, iteration)
+                #writer.add_summary(summary, iteration)
                 temp_losses.append(loss)
 
                 if iteration % LOGGING_FREQUENCY == 0:
@@ -82,9 +80,12 @@ def train(model_path, num_epochs=1000, resume=True):
         print("Model saved in path: {}".format(path))
 
 
-def predict():
-    output = None
+def predict(model_path):
     with tf.Session() as sess:
+        saver = tf.train.Saver()
+        if resume and os.path.exists(model_path):
+            saver.restore(sess, model_path)
+
         data_provider = DataProvider(data_dir, BATCH_SIZE, SEQUENCE_LENGTH)
         model = RNNModel(data_provider.vocabulary_size,
                          batch_size=1,
