@@ -53,6 +53,11 @@ def parse_args(args):
                         default=3000,
                         type=int,
                         help='server port')
+    parser.add_argument('-D',
+                        '--development',
+                        default=False,
+                        action='store_true',
+                        help="start in development mode")
     parser.add_argument("-v",
                         "--verbose",
                         dest="loglevel",
@@ -90,7 +95,10 @@ def main(args):
     args = parse_args(args)
     setup_logging(args.loglevel)
 
-    run_server(host=args.host, port=args.port, reloader=True)
+    run_server(host=args.host,
+               port=args.port,
+               reloader=args.development,
+               debug=args.development)
 
 
 def run():

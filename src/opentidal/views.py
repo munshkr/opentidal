@@ -1,6 +1,6 @@
 import json
 
-from bottle import get, post, request, response, static_file, view
+from bottle import get, post, redirect, request, response, static_file, view
 
 from opentidal import __version__
 from opentidal.model import (BATCH_SIZE, DEFAULT_DATASET_NAME,
@@ -29,6 +29,20 @@ def feed():
     return dict(version=__version__)
 
 
+@post('/feed')
+def feed_submit():
+    code = request.forms.get("collab")
+    # Extract line
+    lines = code.split("\n")
+    lines = [line.strip() for line in lines]
+    lines = [line for line in lines if line]
+    code = lines[0]
+    data_provider = DataProvider(DEFAULT_DATASET_NAME, BATCH_SIZE,
+                                 SEQUENCE_LENGTH)
+    data_provider.append(code)
+    redirect("/")
+
+
 @get('/growth')
 @view('growth')
 def growth():
@@ -43,6 +57,7 @@ def api_index():
 
 @post('/api/submit')
 def api_submit():
+    # FIXME should accept json
     response.headers['Content-Type'] = 'application/json'
     data_provider = DataProvider(DEFAULT_DATASET_NAME, BATCH_SIZE,
                                  SEQUENCE_LENGTH)
