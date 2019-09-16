@@ -8,7 +8,7 @@ Web based TidalCycles code repo and AI generator.
 
 El propósito del Open Tidal es crear un repositorio en línea de código ejecutable en TidalCycles. Al mismo tiempo un algoritmo fundado sobre una red neuronal entrenada con el imput del sistema permite la navegación del repositorio y propone códigos automáticamente generados. Un plugin facilita el acceso del usuario al repositorio en forma directa desde Atom.
 
-Equipo actual: Jimena Piano, Lais Macaría, Damián Silvani, Luis Tamagnini.
+Equipo actual: Jimena Piano, Lais Macaria, Damián Silvani, Luis Tamagnini.
 
 ## Development
 
