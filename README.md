@@ -4,7 +4,7 @@ Open Tidal - Memoria.
 Proyecto elaborado durante el Hacklab / Artlab - Yaeltex en el marco de  MUTEK AR 2019.
 
 Open Tidal.
-Web based TidalCycles code repo and AI generador.
+Web based TidalCycles code repo and AI generator.
 
 El propósito del Open Tidal es crear un repositorio en línea de código ejecutable en TidalCycles. Al mismo tiempo un algoritmo fundado sobre una red neuronal entrenada con el imput del sistema permite la navegación del repositorio y propone códigos automáticamente generados. Un plugin facilita el acceso del usuario al repositorio en forma directa desde Atom.
 
