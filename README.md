@@ -10,6 +10,8 @@ El propósito del Open Tidal es crear un repositorio en línea de código ejecut
 
 Equipo actual: Jimena Piano, Lais Macaria, Damián Silvani, Luis Tamagnini.
 
+Trello board para seguir el desarrollo: https://trello.com/b/x2eIjf5o/opentidal
+
 ## Development
 
 ```bash
