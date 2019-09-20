@@ -51,6 +51,12 @@ def growth():
     return dict(version=__version__)
 
 
+@get('/resources')
+@view('resources')
+def resources():
+    return dict(version=__version__)
+
+
 @get('/api/?')
 def api_index():
     response.headers['Content-Type'] = 'application/json'

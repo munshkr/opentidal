@@ -9,35 +9,75 @@
 <body>
 <div id="container">
 	<section>
-		<h1>OpenTidal </h1>
-		<h2>Iteration #10.581.967 </h2>
-		<p class="about"><i>Hi. I am a system that grows on TidalCycles Code and create my own by LSTMs and Recurrent Neural Networks</i></p>
+		<img class="logo" src="logo.svg">
+		<h1><a href="/">OpenTidal </a></h1>
+		<nav>
+		  <ul>
+			<li class="active"><a href="/">Learn</a></li>
+			<li><a href="/feed">Feed</a></li>
+		 	<li><a href="/growth">Grow</a></li>
+		 	<li><a href="/resources">Use</a></li>
+		   <ul>
+		</nav>
+		<div class="clear"></div>
+		<div class="iteracion">
+			<h2>Iteration #10.581.967 </h2>
+			<p class="about"><i>Hi. I am a system that grows on TidalCycles Code and create my own by LSTMs and Recurrent Neural Networks</i></p>
+		</div>
 
 	</section>
-	<nav>
-	  <a href="/">WATCH</a> |
-	  <a href="/feed">FEED</a> |
-	  <a href="/growth">GROWTH</a> |
-	</nav>
 
 	<section>
 	    <h3>WATCH & LEARN</h3>
-		  % for sample, predicted_sample in zip(samples, predicted_samples):
-			<div class="resultadoIteracion">
-				<p class="code human">
-					{{sample}}
-				</p>	
-			</div>
-			<div class="resultadoIteracion">
-				<p class="code ai">
-					{{predicted_sample}}
-				</p>	
-			</div>
-		% end
+	    <div id="resultadoIteracion">
+	    	<p class="in">In</p>
+	    	<p class="code ML">
+	    		<span class="white">d1</span>
+	    		<span class="pink">$</span>
+	    		<span class="white">sound</span>
+	    		<span class="yellow">"bd sd:1"</span>
+	    	</p>
+	    	<div class="clear"></div>
+	    	<p class="out">Out</p>
+	    	<p class="code User">
+		    	<span class="white">d2 </span>
+				<span class="pink">$ </span>
+				<span class="white">sound </span>
+				<span class="yellow">"hh hh hh hh"</span>
+			</p>
+			<div class="clear"></div>
+			<p class="in">In</p>
+			<p class="code ML">
+		    	<span class="white">d3 </span>
+				<span class="pink">$ </span>
+				<span class="white">sound </span>
+				<span class="yellow">"arpy"</span>
+			</p>
+			<div class="clear"></div>
+			<p class="out">Out</p>
+	    	<p class="code User">
+	    		<span class="white">interlace (randcat [sound </span>
+	    	 	<span class="yellow">"jvbass*3"</span>
+	    	 	<span class="white">, s </span>
+	    	 	<span class="yellow">"bass1" </span>
+	    	 	<span class="white"># cut </span>
+	    	 	<span class="violet">1</span>
+	    	 	<span class="white">]) (every</span>
+	    	 	<span class="violet">7 </span>
+	    	 	<span class="white">(rev </span>
+	    	 	<span class="pink">. </span>
+	    	 	<span class="white">(fast </span>
+	    	 	<span class="violet">2</span>
+	    	 	<span class="white">)) </span>
+	    	 	<span class="pink">$ </span>
+	    	 	<span class="white">sound </span>
+	    	 	<span class="yellow">"bd:3 hh:3" </span>
+	    	 	<span class="white"># gain </span>
+	    	 	<span class="yellow">"0.9"</span>
+	    	 	<span class="white">)</span>
+	    	 </p>
 	    </div>
 	</section>
-
-	
 </div>
 </body>
 </html>
